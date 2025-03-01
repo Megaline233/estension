@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "extencion",
+  "version": "1.0-SNAPSHOT",
+  "name": "Extencion",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/extencion/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "xyz.Extencion.extencion.Extencion"
+    ]
+  },
+  "mixins": [
+    "extencion.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}

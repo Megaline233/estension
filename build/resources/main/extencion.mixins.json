@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.Extencion.extencion.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "MinecraftClientMixin",
+    "KeyboardMixin",
+    "EntityMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ClientPlayerEntityMixin",
+    "LivingEntityMixin",
+    "ChatInputSuggestorMixin",
+    "TitleScreenMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "HandledScreenMixin",
+    "MouseMixin",
+    "accesors.ILivingEntity",
+    "accesors.IMinecraftClient",
+    "DebugHudMixin",
+    "GameRendererAccessor",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "NativeImageAccessor",
+    "PostEffectProcessorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

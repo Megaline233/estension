@@ -1,0 +1,6 @@
+v1	named	intermediary
+FIELD	xyz/Extencion/extencion/mixins/ChatInputSuggestorMixin	Lnet/minecraft/client/gui/widget/TextFieldWidget;	textField	field_21599
+FIELD	xyz/Extencion/extencion/mixins/DebugHudMixin	Lnet/minecraft/client/MinecraftClient;	client	field_2079
+METHOD	xyz/Extencion/extencion/mixins/ChatInputSuggestorMixin	(Z)V	show	method_23920
+METHOD	xyz/Extencion/extencion/mixins/HandledScreenMixin	(Lnet/minecraft/screen/slot/Slot;DD)Z	isPointOverSlot	method_2387
+METHOD	xyz/Extencion/extencion/mixins/HandledScreenMixin	(Lnet/minecraft/screen/slot/Slot;IILnet/minecraft/screen/slot/SlotActionType;)V	onMouseClick	method_2383
