@@ -11,7 +11,7 @@ import  xyz.Extencion.extencion.modules.api.Module;
 public class Speed extends Module {
 
     public Speed() {
-        super("Speed", "Не включай ато улетишь", Category.Movement, true, false, false);
+        super("Speed", "Не включай", Category.Movement, true, false, false);
     }
 
     private double moveSpeed = 0.2873D;
